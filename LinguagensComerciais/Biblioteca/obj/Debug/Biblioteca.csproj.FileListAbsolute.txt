@@ -1,0 +1,10 @@
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Aluno\Desktop\LinguagensComerciais\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Aluno\Desktop\LinguagensComerciais\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Aluno\Desktop\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\Aluno\Desktop\LinguagensComerciais\Biblioteca\obj\Debug\Biblioteca.pdb

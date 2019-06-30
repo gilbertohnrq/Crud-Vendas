@@ -1,0 +1,29 @@
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\bin\Debug\Venda.exe
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\bin\Debug\Venda.pdb
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.csprojAssemblyReference.cache
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.CadastroProduto.resources
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.Properties.Resources.resources
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.csproj.GenerateResource.cache
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.csproj.CoreCompileInputs.cache
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.exe
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.pdb
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.FormExibir.resources
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\bin\Debug\Venda.exe.config
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.MainForm.resources
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.Options.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\bin\Debug\Venda.exe.config
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.exe
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.pdb
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.CadastroProduto.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.MainForm.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.FormExibir.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.Options.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.Properties.Resources.resources
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\obj\x86\Debug\Venda.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\bin\Debug\Venda.exe
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\bin\Debug\Venda.pdb
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\bin\Debug\Biblioteca.dll
+C:\Users\Aluno\Desktop\LinguagensComerciais\Venda\bin\Debug\Biblioteca.pdb
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.FormClientes.resources
+C:\Users\gilbe\OneDrive\Área de Trabalho\LinguagensComerciais\Venda\obj\x86\Debug\Venda.CadastroCliente.resources
