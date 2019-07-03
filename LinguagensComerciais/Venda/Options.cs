@@ -46,5 +46,10 @@ namespace Venda
             Close();
            
         }
+
+        private void nomeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

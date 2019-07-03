@@ -25,6 +25,7 @@ namespace Venda
             txtBairro.Enabled = false;
             txtRg.Enabled = false;
             txtCpf.Enabled = false;
+            txtCompra.Enabled = false;
         }
         SqlConnection sqlCon = null;
         private string strCon = "Data Source=localhost;Initial Catalog=TrabalhoLC;Integrated Security=True";
@@ -42,11 +43,12 @@ namespace Venda
             txtBairro.Enabled = true;
             txtRg.Enabled = true;
             txtCpf.Enabled = true;
+            txtCompra.Enabled = true;
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            strSql = "INSERT INTO Clientes (Nome, Telefone, Celular, Email, Endereco, Numero, Bairro, RG, CPF)  VALUES (@Nome, @Telefone, @Celular, @Email, @Endereco, @Numero, @Bairro, @RG, @CPF)";
+            strSql = "INSERT INTO Clientes (Nome, Telefone, Celular, Email, Endereco, Numero, Bairro, RG, CPF, Produto)  VALUES (@Nome, @Telefone, @Celular, @Email, @Endereco, @Numero, @Bairro, @RG, @CPF, @Produto)";
 
             sqlCon = new SqlConnection(strCon);
             SqlCommand comando = new SqlCommand(strSql, sqlCon);
@@ -60,7 +62,7 @@ namespace Venda
             comando.Parameters.Add("@Bairro", SqlDbType.VarChar).Value = txtBairro.Text;
             comando.Parameters.Add("@RG", SqlDbType.VarChar).Value = txtRg.Text;
             comando.Parameters.Add("@CPF", SqlDbType.VarChar).Value = txtCpf.Text;
-
+            comando.Parameters.Add("@Produto", SqlDbType.VarChar).Value = txtCompra.Text;
             try
             {
                 sqlCon.Open();
@@ -225,5 +227,7 @@ namespace Venda
             txtCpf.Clear();
             mskCelular.Clear();
         }
+
+    
     }
 }

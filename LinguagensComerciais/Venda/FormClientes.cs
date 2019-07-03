@@ -39,6 +39,11 @@ namespace Venda
 
             dtTabela.Load(dr);
             return dtTabela;
-        } 
+        }
+
+        private void exibirClientesDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

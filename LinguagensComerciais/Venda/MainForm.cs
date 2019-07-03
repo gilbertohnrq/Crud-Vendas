@@ -60,5 +60,11 @@ namespace Venda
             CadastroCliente cadastrarClientes = new CadastroCliente();
             cadastrarClientes.ShowDialog();
         }
+
+        private void consultarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormVenda formVenda = new FormVenda();
+            formVenda.ShowDialog();
+        }
     }
 }

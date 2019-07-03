@@ -29,11 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.limparButton = new System.Windows.Forms.Button();
-            this.editarButton = new System.Windows.Forms.Button();
-            this.buscarButton = new System.Windows.Forms.Button();
             this.removerButton = new System.Windows.Forms.Button();
-            this.salvarButton = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.idTextBox = new System.Windows.Forms.TextBox();
@@ -49,6 +45,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.produtoTextBox = new System.Windows.Forms.TextBox();
+            this.limparButton = new System.Windows.Forms.Button();
+            this.editarButton = new System.Windows.Forms.Button();
+            this.buscarButton = new System.Windows.Forms.Button();
+            this.salvarButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.validadeNumericUpDown)).BeginInit();
@@ -59,9 +59,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.limparButton);
+            this.groupBox1.Controls.Add(this.removerButton);
             this.groupBox1.Controls.Add(this.editarButton);
             this.groupBox1.Controls.Add(this.buscarButton);
-            this.groupBox1.Controls.Add(this.removerButton);
             this.groupBox1.Controls.Add(this.salvarButton);
             this.groupBox1.Location = new System.Drawing.Point(12, 259);
             this.groupBox1.Name = "groupBox1";
@@ -69,60 +69,17 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // limparButton
-            // 
-            this.limparButton.Location = new System.Drawing.Point(139, 19);
-            this.limparButton.Name = "limparButton";
-            this.limparButton.Size = new System.Drawing.Size(75, 23);
-            this.limparButton.TabIndex = 17;
-            this.limparButton.Text = "Limpar";
-            this.limparButton.UseVisualStyleBackColor = true;
-            this.limparButton.Click += new System.EventHandler(this.limparButton_Click);
-            // 
-            // editarButton
-            // 
-            this.editarButton.Enabled = false;
-            this.editarButton.Location = new System.Drawing.Point(255, 19);
-            this.editarButton.Name = "editarButton";
-            this.editarButton.Size = new System.Drawing.Size(75, 23);
-            this.editarButton.TabIndex = 16;
-            this.editarButton.Text = "Editar";
-            this.editarButton.UseVisualStyleBackColor = true;
-            this.editarButton.Visible = false;
-            this.editarButton.Click += new System.EventHandler(this.editarButton_Click);
-            // 
-            // buscarButton
-            // 
-            this.buscarButton.Location = new System.Drawing.Point(9, 19);
-            this.buscarButton.Name = "buscarButton";
-            this.buscarButton.Size = new System.Drawing.Size(75, 23);
-            this.buscarButton.TabIndex = 15;
-            this.buscarButton.Text = "Buscar";
-            this.buscarButton.UseVisualStyleBackColor = true;
-            this.buscarButton.Visible = false;
-            this.buscarButton.Click += new System.EventHandler(this.buscarButton_Click);
-            // 
             // removerButton
             // 
             this.removerButton.Enabled = false;
-            this.removerButton.Location = new System.Drawing.Point(255, 19);
+            this.removerButton.Image = global::Venda.Properties.Resources.remover;
+            this.removerButton.Location = new System.Drawing.Point(210, 14);
             this.removerButton.Name = "removerButton";
-            this.removerButton.Size = new System.Drawing.Size(75, 23);
+            this.removerButton.Size = new System.Drawing.Size(43, 35);
             this.removerButton.TabIndex = 1;
-            this.removerButton.Text = "Remover";
             this.removerButton.UseVisualStyleBackColor = true;
             this.removerButton.Visible = false;
             this.removerButton.Click += new System.EventHandler(this.removerButton_Click);
-            // 
-            // salvarButton
-            // 
-            this.salvarButton.Location = new System.Drawing.Point(255, 19);
-            this.salvarButton.Name = "salvarButton";
-            this.salvarButton.Size = new System.Drawing.Size(75, 23);
-            this.salvarButton.TabIndex = 0;
-            this.salvarButton.Text = "Salvar";
-            this.salvarButton.UseVisualStyleBackColor = true;
-            this.salvarButton.Click += new System.EventHandler(this.salvarButton_Click);
             // 
             // groupBox2
             // 
@@ -264,6 +221,49 @@
             this.produtoTextBox.Name = "produtoTextBox";
             this.produtoTextBox.Size = new System.Drawing.Size(120, 20);
             this.produtoTextBox.TabIndex = 0;
+            // 
+            // limparButton
+            // 
+            this.limparButton.Image = global::Venda.Properties.Resources.limpar;
+            this.limparButton.Location = new System.Drawing.Point(71, 14);
+            this.limparButton.Name = "limparButton";
+            this.limparButton.Size = new System.Drawing.Size(40, 35);
+            this.limparButton.TabIndex = 17;
+            this.limparButton.UseVisualStyleBackColor = true;
+            this.limparButton.Click += new System.EventHandler(this.limparButton_Click);
+            // 
+            // editarButton
+            // 
+            this.editarButton.Enabled = false;
+            this.editarButton.Image = global::Venda.Properties.Resources.botao_editar_1_1;
+            this.editarButton.Location = new System.Drawing.Point(141, 14);
+            this.editarButton.Name = "editarButton";
+            this.editarButton.Size = new System.Drawing.Size(39, 35);
+            this.editarButton.TabIndex = 16;
+            this.editarButton.UseVisualStyleBackColor = true;
+            this.editarButton.Visible = false;
+            this.editarButton.Click += new System.EventHandler(this.editarButton_Click);
+            // 
+            // buscarButton
+            // 
+            this.buscarButton.Image = global::Venda.Properties.Resources.busca;
+            this.buscarButton.Location = new System.Drawing.Point(9, 14);
+            this.buscarButton.Name = "buscarButton";
+            this.buscarButton.Size = new System.Drawing.Size(41, 35);
+            this.buscarButton.TabIndex = 15;
+            this.buscarButton.UseVisualStyleBackColor = true;
+            this.buscarButton.Visible = false;
+            this.buscarButton.Click += new System.EventHandler(this.buscarButton_Click);
+            // 
+            // salvarButton
+            // 
+            this.salvarButton.Image = global::Venda.Properties.Resources.salvar;
+            this.salvarButton.Location = new System.Drawing.Point(280, 14);
+            this.salvarButton.Name = "salvarButton";
+            this.salvarButton.Size = new System.Drawing.Size(39, 35);
+            this.salvarButton.TabIndex = 0;
+            this.salvarButton.UseVisualStyleBackColor = true;
+            this.salvarButton.Click += new System.EventHandler(this.salvarButton_Click);
             // 
             // CadastroProduto
             // 

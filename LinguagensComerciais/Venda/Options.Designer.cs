@@ -28,30 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.editarButton = new System.Windows.Forms.Button();
-            this.removerButton = new System.Windows.Forms.Button();
             this.nomeLabel = new System.Windows.Forms.Label();
+            this.removerButton = new System.Windows.Forms.Button();
+            this.editarButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // editarButton
-            // 
-            this.editarButton.Location = new System.Drawing.Point(4, 45);
-            this.editarButton.Name = "editarButton";
-            this.editarButton.Size = new System.Drawing.Size(75, 23);
-            this.editarButton.TabIndex = 0;
-            this.editarButton.Text = "Editar";
-            this.editarButton.UseVisualStyleBackColor = true;
-            this.editarButton.Click += new System.EventHandler(this.editarButton_Click);
-            // 
-            // removerButton
-            // 
-            this.removerButton.Location = new System.Drawing.Point(151, 45);
-            this.removerButton.Name = "removerButton";
-            this.removerButton.Size = new System.Drawing.Size(75, 23);
-            this.removerButton.TabIndex = 1;
-            this.removerButton.Text = "Remover";
-            this.removerButton.UseVisualStyleBackColor = true;
-            this.removerButton.Click += new System.EventHandler(this.removerButton_Click);
             // 
             // nomeLabel
             // 
@@ -61,16 +41,37 @@
             this.nomeLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.nomeLabel.Location = new System.Drawing.Point(12, 9);
             this.nomeLabel.Name = "nomeLabel";
-            this.nomeLabel.Size = new System.Drawing.Size(39, 20);
+            this.nomeLabel.Size = new System.Drawing.Size(59, 20);
             this.nomeLabel.TabIndex = 2;
-            this.nomeLabel.Text = "label";
+            this.nomeLabel.Text = "Produto";
             this.nomeLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.nomeLabel.Click += new System.EventHandler(this.nomeLabel_Click);
+            // 
+            // removerButton
+            // 
+            this.removerButton.Image = global::Venda.Properties.Resources.remover;
+            this.removerButton.Location = new System.Drawing.Point(176, 48);
+            this.removerButton.Name = "removerButton";
+            this.removerButton.Size = new System.Drawing.Size(50, 39);
+            this.removerButton.TabIndex = 1;
+            this.removerButton.UseVisualStyleBackColor = true;
+            this.removerButton.Click += new System.EventHandler(this.removerButton_Click);
+            // 
+            // editarButton
+            // 
+            this.editarButton.Image = global::Venda.Properties.Resources.botao_editar_1_1;
+            this.editarButton.Location = new System.Drawing.Point(118, 48);
+            this.editarButton.Name = "editarButton";
+            this.editarButton.Size = new System.Drawing.Size(52, 39);
+            this.editarButton.TabIndex = 0;
+            this.editarButton.UseVisualStyleBackColor = true;
+            this.editarButton.Click += new System.EventHandler(this.editarButton_Click);
             // 
             // Options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(238, 80);
+            this.ClientSize = new System.Drawing.Size(238, 99);
             this.Controls.Add(this.nomeLabel);
             this.Controls.Add(this.removerButton);
             this.Controls.Add(this.editarButton);
